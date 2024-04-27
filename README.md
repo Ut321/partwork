@@ -21,7 +21,8 @@ The project is implemented using the following components:
 3. **Presentation Layer**: This layer contains the UI implementation and the Bloc implementation. The `QuotesScreen` is the main UI component that displays the quotes, while the `QuotesBloc` manages the state of the quotes screen.
 
 The project also utilizes the `flutter_bloc` package for implementing the Bloc pattern and the `http` package for making API requests.
-![Alt Text](https://raw.githubusercontent.com/Ut321/partwork/main/assets/64413631/4caf02b9-d000-471e-9a23-158f7ae1de6f/Screenshot_2024-04-27-12-43-05-20_991c6ae33fa8cb114f365509ad12e629.jpg)
+![Quotes App Screenshot](https://github.com/Ut321/partwork/raw/main/assets/Screenshot_2024-04-27-12-43-05-20_991c6ae33fa8cb114f365509ad12e629.png)
+
 
 
 ## Features
