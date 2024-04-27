@@ -23,7 +23,11 @@ The project is implemented using the following components:
 The project also utilizes the `flutter_bloc` package for implementing the Bloc pattern and the `dio` package for making API requests.
 ![Quotes App Screenshot](https://github.com/Ut321/partwork/raw/main/assets/Screenshot_2024-04-27-12-43-05-20_991c6ae33fa8cb114f365509ad12e629.png)
 
-
+## Troubleshooting
+If you encounter any issues while running the application, try the following steps:
+1. Run flutter clean to clear the build cache.
+2. Run flutter pub get to ensure all dependencies are up-to-date.
+3. Check if you have an active internet connection, as the application fetches data from the Binance API.
 
 ## Features
 
