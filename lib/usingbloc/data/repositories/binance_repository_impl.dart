@@ -1,8 +1,8 @@
 
 
-import 'package:partwork/data/datasources/binance_data_source.dart';
-import 'package:partwork/domain/entities/quote.dart';
-import 'package:partwork/domain/repositories/binance_repository.dart';
+import 'package:partwork/usingbloc/data/datasources/binance_data_source.dart';
+import 'package:partwork/usingbloc/domain/entities/quote.dart';
+import 'package:partwork/usingbloc/domain/repositories/binance_repository.dart';
 
 
 //  This file will contain the implementation of the repository that uses the BinanceDataSource.

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gap/gap.dart';
-import 'package:partwork/data/datasources/binance_data_source.dart';
-import 'package:partwork/data/repositories/binance_repository_impl.dart';
-import 'package:partwork/domain/usecases/get_quotes.dart';
-import 'package:partwork/presentation/quotes_bloc/quotes_bloc.dart';
-import 'package:partwork/presentation/quotes_bloc/quotes_event.dart';
-import 'package:partwork/presentation/quotes_bloc/quotes_state.dart';
+import 'package:partwork/usingbloc/data/datasources/binance_data_source.dart';
+import 'package:partwork/usingbloc/data/repositories/binance_repository_impl.dart';
+import 'package:partwork/usingbloc/domain/usecases/get_quotes.dart';
+import 'package:partwork/usingbloc/presentation/quotes_bloc/quotes_bloc.dart';
+import 'package:partwork/usingbloc/presentation/quotes_bloc/quotes_event.dart';
+import 'package:partwork/usingbloc/presentation/quotes_bloc/quotes_state.dart';
 
 class QuotesScreen extends StatelessWidget {
   const QuotesScreen({super.key});

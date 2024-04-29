@@ -1,5 +1,5 @@
-import 'package:partwork/domain/entities/quote.dart';
-import 'package:partwork/domain/repositories/binance_repository.dart';
+import 'package:partwork/usingbloc/domain/entities/quote.dart';
+import 'package:partwork/usingbloc/domain/repositories/binance_repository.dart';
 
 // This file will contain the use case for getting quotes.
 

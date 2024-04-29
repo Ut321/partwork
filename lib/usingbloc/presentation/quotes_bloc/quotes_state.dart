@@ -1,4 +1,4 @@
-import 'package:partwork/domain/entities/quote.dart';
+import 'package:partwork/usingbloc/domain/entities/quote.dart';
 
 // This file will contain the states that the QuotesBloc can be in.
 

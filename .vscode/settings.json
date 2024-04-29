@@ -6,6 +6,7 @@
         "datasources",
         "dotenv",
         "Favourites",
+        "Getx",
         "partwork",
         "usecases",
         "Watchlist"

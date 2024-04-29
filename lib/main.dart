@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:partwork/presentation/pages/quotes_screen.dart';
+import 'package:partwork/usingGetx/view/binance_screen.dart';
 
-Future<void> main() async {
+void main() async {
   await dotenv.load();
-
   runApp(const MyApp());
 }
 
@@ -14,12 +13,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Quotes',
+      title: 'Binance Data',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const QuotesScreen(),
+
+      // if You want see using GETX then use BinanceDataScreen and if you see using Bloc then Call the  QuotesScreen .
+      home: BinanceDataScreen(),
     );
   }
 }
